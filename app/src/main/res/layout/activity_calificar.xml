@@ -14,24 +14,31 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="numberDecimal"
+        android:hint="Funcionalidad 50%"
         android:ems="10"
-        android:id="@+id/editText" />
+        android:id="@+id/EDTfuncionalidad" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="numberDecimal"
+        android:hint="Presentación 25%"
         android:ems="10"
-        android:id="@+id/editText3" />
+        android:id="@+id/EDTpresentacion" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Name"
+        android:inputType="numberDecimal"
+        android:hint="Usabilidad 25%"
         android:ems="10"
-        android:id="@+id/editText2" />
+        android:id="@+id/EDTusabilidad" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickcalificar"
+        android:id="@+id/BTNcalificar" />
 </LinearLayout>

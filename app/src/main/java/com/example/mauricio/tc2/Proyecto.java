@@ -1,10 +1,12 @@
 package com.example.mauricio.tc2;
 
+import java.io.Serializable;
+
 /**
  * Created by mauricio on 6/02/17.
  */
 
-public class Proyecto {
+public class Proyecto implements Serializable {
 
     private double funcionalidad; //50%
     private double presentacion;  //25%
@@ -49,5 +51,6 @@ public class Proyecto {
     public void setTotal(double total) {
         this.total = total;
     }
+
 }
 

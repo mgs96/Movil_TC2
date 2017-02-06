@@ -8,7 +8,9 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
 
-public class calificar extends AppCompatActivity {
+import Clases.Proyecto;
+
+public class CalificarActivity extends AppCompatActivity {
 
     EditText funcionalidad;
     EditText presentacion;

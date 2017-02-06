@@ -1,4 +1,4 @@
-package com.example.mauricio.tc2;
+package Clases;
 
 import java.io.Serializable;
 

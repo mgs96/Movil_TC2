@@ -11,40 +11,96 @@
     android:orientation="vertical"
     tools:context="com.example.mauricio.tc2.MainActivity">
 
-    <TextView
-        android:text="Proyecto 1"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/proyecto1"
-        android:textSize="36sp"
-        android:onClick="onClicknota"
-        android:clickable="true"/>
+        android:orientation="horizontal">
 
-    <TextView
-        android:text="Proyecto 2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/proyecto2"
-        android:textSize="36sp"
-        android:onClick="onClicknota"
-        android:clickable="true"/>
+        <TextView
+            android:text="Proyecto 1 nota:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proyecto1"
+            android:textSize="36sp"
+            android:onClick="onClicknota"
+            android:clickable="true"/>
 
-    <TextView
-        android:text="Proyecto 3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/proyecto3"
-        android:textSize="36sp"
-        android:onClick="onClicknota"
-        android:clickable="true"/>
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nota1"
+            android:textSize="36sp"/>
 
-    <TextView
-        android:text="Proyecto 4"
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/proyecto4"
-        android:textSize="36sp"
-        android:onClick="onClicknota"
-        android:clickable="true"/>
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Proyecto 2 nota:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proyecto2"
+            android:textSize="36sp"
+            android:onClick="onClicknota"
+            android:clickable="true"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nota2"
+            android:textSize="36sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Proyecto 3 nota:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proyecto3"
+            android:textSize="36sp"
+            android:onClick="onClicknota"
+            android:clickable="true"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nota3"
+            android:textSize="36sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="Proyecto 4 nota:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proyecto4"
+            android:textSize="36sp"
+            android:onClick="onClicknota"
+            android:clickable="true"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nota4"
+            android:textSize="36sp"/>
+
+    </LinearLayout>
 
 </LinearLayout>

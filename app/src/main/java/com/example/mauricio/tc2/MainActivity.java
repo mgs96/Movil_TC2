@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import Clases.Proyecto;
+
 public class MainActivity extends AppCompatActivity {
 
     TextView pro1, pro2, pro3, pro4;
@@ -16,14 +18,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        pro1 = (TextView) findViewById(R.id.proyecto1);
-        pro2 = (TextView) findViewById(R.id.proyecto2);
-        pro3 = (TextView) findViewById(R.id.proyecto3);
-        pro4 = (TextView) findViewById(R.id.proyecto4);
+        pro1 = (TextView) findViewById(R.id.nota1);
+        pro2 = (TextView) findViewById(R.id.nota2);
+        pro3 = (TextView) findViewById(R.id.nota3);
+        pro4 = (TextView) findViewById(R.id.nota4);
     }
 
     public void onClicknota(View view) {
-        Intent i = new Intent(this,calificar.class);
+        Intent i = new Intent(this,CalificarActivity.class);
         switch(view.getId()){
             case R.id.proyecto1:
                 startActivityForResult(i, 1);

@@ -6,17 +6,19 @@ package com.example.mauricio.tc2;
 
 public class Proyecto {
 
-    private int funcionalidad; //50%
-    private int presentacion;  //25%
-    private int usabilidad;    //25%
+    private double funcionalidad; //50%
+    private double presentacion;  //25%
+    private double usabilidad;    //25%
+    private double total;
 
-    public Proyecto(int funcionalidad, int presentacion, int usabilidad) {
+    public Proyecto(double funcionalidad, double presentacion, double usabilidad, double total) {
         this.funcionalidad = funcionalidad;
         this.presentacion = presentacion;
         this.usabilidad = usabilidad;
+        this.total = total;
     }
 
-    public int getFuncionalidad() {
+    public double getFuncionalidad() {
         return funcionalidad;
     }
 
@@ -24,7 +26,7 @@ public class Proyecto {
         this.funcionalidad = funcionalidad;
     }
 
-    public int getPresentacion() {
+    public double getPresentacion() {
         return presentacion;
     }
 
@@ -32,12 +34,20 @@ public class Proyecto {
         this.presentacion = presentacion;
     }
 
-    public int getUsabilidad() {
+    public double getUsabilidad() {
         return usabilidad;
     }
 
     public void setUsabilidad(int usabilidad) {
         this.usabilidad = usabilidad;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public void setTotal(double total) {
+        this.total = total;
     }
 }
 
